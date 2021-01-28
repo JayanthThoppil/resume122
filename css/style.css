@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+    list-style: none;
+}
+
+body{
+    background:rgb(168, 209, 191);
+}
+
+.resume{
+    width: 800px;
+    background: white;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left{
+    flex:70%;
+    margin: 0 20px;
+    
+}
+
+.right{
+    flex: 30%;
+    background: #cb9e89;
+}
+
+.header{
+    background: black;
+    /*border-radius: 20px 0;*/
+    /*margin-top: 20px;*/
+    padding-top: 20px;
+    height: 190px;
+    padding-left: 20px;
+}
+.header .name{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ADEFD1FF;
+}
+
+.header .role{
+    font-size: 30px;
+    font-weight: 500;
+    color: #cb9e89;
+    padding-bottom: 20px;
+}
+
+.header .about{
+    color: grey;
+    
+}
+.left_inner .li_wrap{
+    display: flex;
+}
+
+.left_inner .li_wrap .role_comp{
+    flex: 80%;
+}
+
+.left_inner .li_wrap .date{
+    flex: 20%;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Merienda';
+    color: #ADEFD1FF;
+}
+
+.title:before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    background: tomato;
+    left: 390px;
+}
+
+.li_wrap{
+    padding-top: 15px;
+}
+
+.li_wrap .role1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d7a9e3ff;
+}
+
+.li_wrap .com{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color:#cb9e89;
+}
+
+.li_wrap .date{
+    font-style: italic;
+    color: goldenrod;
+}
+
+.right img{
+    width: 200px;
+    margin: 20px;
+    border-radius: 0 0 50px 50px;
+}
+
+.title1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Merienda';
+    color:#ADEFD1FF;
+}
+
+.title1:before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    background: tomato;
+    left: 930px;
+}
+
+.right .icon{
+    font-size: 20px;    
+}
+
+.right .text{
+    font-size: 18px;
+
+}
+
+.contact .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+.contact_wrap .li_wrap .icon{
+    width: 40px;
+    height: 40px;
+    /*background-color: darkblue;
+    border-radius: 50%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.contact_wrap .li_wrap .text{
+    width: calc(100%-40px);
+    word-break: break-all;
+}
+
+
+.skills .li_wrap{
+    margin-left: 20px;
+
+}
+.skills .li_wrap .text{
+    background: white;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    color:#7f2c46 ;
+    border-radius: 10px;
+    padding-top: 2px;
+    
+}
+
+.hobbies ul{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.hobbies .li_wrap{
+    width: 85px;
+    height: 85px;
+    margin: 15px 5px;
+    background:#7f2c46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.contact .li_wrap .icon{
+    color: #7f2c46;
+}
